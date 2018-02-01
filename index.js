@@ -11,7 +11,9 @@ app.use(express.static(__dirname+"/client/dist/"));
 
 app.get('*', (req, res)=>{
     // res.send('Hello World!');
-    res.sendFile(path.join(__dirname+'/client/dist/index.html'));
+    const index = path.join(__dirname, 'build', 'dist', 'index.html');
+  res.sendFile(index);
+    //res.sendFile(path.join(__dirname+'/client/dist/index.html'));
   });
   
   app.listen(PORT, ()=>{
