@@ -1,0 +1,22 @@
+{
+  "name": "heroku-demo-app",
+  "version": "1.0.0",
+  "description": "this heroku demo app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChoppariRavi/heroku-demo-app.git"
+  },
+  "author": "ravi choppari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChoppariRavi/heroku-demo-app/issues"
+  },
+  "homepage": "https://github.com/ChoppariRavi/heroku-demo-app#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
